@@ -6,4 +6,4 @@
 
 ## Basics
 
-* [Integrations](basics/integrations.md)
+* [Connect](basics/integrations.md)
