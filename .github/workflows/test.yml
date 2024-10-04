@@ -1,0 +1,19 @@
+name: Build and deploy Python app to Azure Web App - foodsight-sandbox
+
+on:
+  push:
+    branches:
+      - test
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: sandbox
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log
+        run: |
+        echo "Works"
+        
